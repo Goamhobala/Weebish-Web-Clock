@@ -1,0 +1,51 @@
+@use 'utility' as *;
+.clock {
+  height: 400px;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: solid 10px #000000;
+  position: relative;
+  padding: 0;
+  list-style: none;
+  .number {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .number1 {
+    @include moveNumber(30deg);
+  }
+  .number2 {
+    @include moveNumber(60deg);
+  }
+  .number3 {
+    @include moveNumber(90deg);
+  }
+  .number4 {
+    @include moveNumber(120deg);
+  }
+  .number5 {
+    @include moveNumber(150deg);
+  }
+  .number6 {
+    @include moveNumber(180deg);
+  }
+  .number7 {
+    @include moveNumber(210deg);
+  }
+  .number8 {
+    @include moveNumber(240deg);
+  }
+  .number9 {
+    @include moveNumber(270deg);
+  }
+  .number10 {
+    @include moveNumber(300deg);
+  }
+  .number11 {
+    @include moveNumber(330deg);
+  }
+}

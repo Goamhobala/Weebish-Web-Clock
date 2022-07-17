@@ -1,4 +1,11 @@
-.clock {
-  height: 400px;
-  width: 400px;
+@use "typography";
+@use "clock";
+
+body {
+  background: rgb(9, 121, 97);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 121, 97, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
