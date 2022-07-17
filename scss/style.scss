@@ -1,4 +1,16 @@
+body {
+  background: rgb(9, 121, 97);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 121, 97, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
 .clock {
   height: 400px;
   width: 400px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: solid 10px #000000;
 }
