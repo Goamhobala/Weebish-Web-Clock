@@ -56,18 +56,19 @@
 
   // hands
   .hand {
+    --rotation: 0;
     background-color: black;
     position: absolute;
     bottom: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
     transform-origin: bottom;
     border-top-left-radius: 120%;
     border-top-right-radius: 120%;
   }
 
   .centre-dot {
-    transform: translateX(-50%) translateY(50%);
+    transform: translate(-50%, 50%);
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -79,12 +80,10 @@
   .hand-minute {
     height: 37%;
     width: 8.5px;
-    transform: rotate(50deg);
   }
   .hand-second {
     height: 41%;
     width: 5px;
-    transform: rotate(80deg);
   }
 }
 
