@@ -1,0 +1,6 @@
+@mixin moveNumber($rotation) {
+  transform: rotate($rotation);
+  & > div {
+    transform: rotate(-$rotation);
+  }
+}
