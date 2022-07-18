@@ -6,6 +6,8 @@
   border-radius: 50%;
   border: solid 10px #000000;
   position: relative;
+
+  // numbers
   .numbers {
     margin: 0;
     padding: 0;
@@ -51,4 +53,46 @@
   .number11 {
     @include moveNumber(330deg);
   }
+
+  // hands
+  .hand {
+    background-color: black;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    border-top-left-radius: 120%;
+    border-top-right-radius: 120%;
+  }
+
+  .centre-dot {
+    transform: translateX(-50%) translateY(50%);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .hand-hour {
+    height: 32%;
+    width: 10px;
+  }
+  .hand-minute {
+    height: 37%;
+    width: 8.5px;
+    transform: rotate(50deg);
+  }
+  .hand-second {
+    height: 41%;
+    width: 5px;
+    transform: rotate(80deg);
+  }
 }
+
+// @keyframes test {
+//   0% {
+//     transform: rotate(0);
+//   }
+//   100% {
+//     transform: rotate(360deg);
+//   }
+// }

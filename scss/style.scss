@@ -1,6 +1,8 @@
 @use "typography";
 @use "components/clock";
-
+* {
+  box-sizing: border-box;
+}
 body {
   background: rgb(9, 121, 97);
   background: linear-gradient(

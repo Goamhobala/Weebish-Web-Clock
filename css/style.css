@@ -95,6 +95,40 @@ body {
 .clock .number11 > div {
   transform: rotate(-330deg);
 }
+.clock .hand {
+  background-color: black;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform-origin: bottom;
+  border-top-left-radius: 120%;
+  border-top-right-radius: 120%;
+}
+.clock .centre-dot {
+  transform: translateX(-50%) translateY(50%);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.clock .hand-hour {
+  height: 32%;
+  width: 10px;
+}
+.clock .hand-minute {
+  height: 37%;
+  width: 8.5px;
+  transform: rotate(50deg);
+}
+.clock .hand-second {
+  height: 41%;
+  width: 5px;
+  transform: rotate(80deg);
+}
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background: rgb(9, 121, 97);
