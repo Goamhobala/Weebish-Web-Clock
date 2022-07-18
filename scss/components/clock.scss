@@ -1,4 +1,4 @@
-@use 'utility' as *;
+@use '../utility' as *;
 .clock {
   height: 400px;
   width: 400px;
@@ -6,9 +6,12 @@
   border-radius: 50%;
   border: solid 10px #000000;
   position: relative;
-  padding: 0;
-  list-style: none;
+  .numbers {
+    margin: 0;
+    padding: 0;
+  }
   .number {
+    list-style: none;
     text-align: center;
     position: absolute;
     width: 100%;
