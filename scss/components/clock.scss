@@ -1,14 +1,20 @@
 @use '../utility' as *;
 .clock {
+  box-shadow: 0 0 5px;
   height: 400px;
   width: 400px;
-  background-color: #ffffff;
   border-radius: 50%;
-  border: solid 10px #000000;
+  border: solid 10px #d4fcfc;
   position: relative;
-
+  overflow: hidden;
+  .clock-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
   // numbers
   .numbers {
+    text-shadow: 0 0 2px #000000;
     margin: 0;
     padding: 0;
   }
@@ -57,7 +63,8 @@
   // hands
   .hand {
     --rotation: 0;
-    background-color: black;
+    background-color: #d4fcfc;
+    box-shadow: 0 0 5px #000000;
     position: absolute;
     bottom: 50%;
     left: 50%;
