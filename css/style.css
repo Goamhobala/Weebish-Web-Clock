@@ -19,6 +19,7 @@ body {
   border: solid 10px #d4fcfc;
   position: relative;
   overflow: hidden;
+  user-select: none;
 }
 .clock .clock-bg {
   position: absolute;
