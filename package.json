@@ -1,13 +1,26 @@
 {
-  "name": "web_clock_project",
+  "name": "web_clock_project(parcel)",
   "version": "1.0.0",
-  "description": "A simple web-based clock",
+  "description": "This project has been created using **webpack-cli**, you can now run",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gitCommit": "node ./js/gitCommit.js",
+    "gitCommit": "node ./src/js/gitCommit.js",
     "sassWatch": "sass scss/style.scss:css/style.css -w"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goamhobala/Weebish-Web-Clock.git"
+  },
+  "keywords": [],
   "author": "Goamhobala",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goamhobala/Weebish-Web-Clock/issues"
+  },
+  "homepage": "https://github.com/Goamhobala/Weebish-Web-Clock#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.53.0"
+  }
 }
