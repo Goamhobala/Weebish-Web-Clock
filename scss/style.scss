@@ -10,4 +10,10 @@ body {
     rgba(9, 121, 97, 1) 0%,
     rgba(0, 212, 255, 1) 100%
   );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  overflow: hidden;
 }
