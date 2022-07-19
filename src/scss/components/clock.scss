@@ -1,8 +1,8 @@
 @use '../utility' as *;
 .clock {
   box-shadow: 0 0 5px;
-  height: 400px;
-  width: 400px;
+  height: clamp(250px, 40vw, 600px);
+  width: clamp(250px, 40vw, 600px);
   border-radius: 50%;
   border: solid 10px #d4fcfc;
   position: relative;
