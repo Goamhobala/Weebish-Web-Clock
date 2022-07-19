@@ -83,11 +83,18 @@
   }
   .hand-hour {
     height: 30%;
-    width: 1.2rem;
+    width: 1rem;
+
+    @media screen and (min-width: 1024px) {
+      width: 1.5rem;
+    }
   }
   .hand-minute {
     height: 37%;
-    width: 0.85rem;
+    width: 0.75rem;
+    @media screen and (min-width: 1024px) {
+      width: 1rem;
+    }
   }
   .hand-second {
     height: 41%;
