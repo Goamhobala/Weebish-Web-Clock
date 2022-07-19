@@ -9,4 +9,12 @@ body {
 .number {
   font-size: 3rem;
   color: #05879c;
+
+  @media screen and (min-width: 768px) {
+    font-size: 4rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 5.5rem;
+  }
 }
